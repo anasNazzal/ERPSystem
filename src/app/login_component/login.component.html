@@ -1,0 +1,29 @@
+<div class="loginDiv animated bounceInLeft">
+    <form #LoginForm="ngForm" (ngSubmit)="SubmitLoginForm(LoginForm.value)">
+        <label> رمز المستخدم </label>
+        <input  [(ngModel)]="loginData.userCode" required type="text"  name="userCode" #userCodeinput="ngModel"  class="userCode" >
+        <div *ngIf="userCodeinput.errors && (userCodeinput.dirty || userCodeinput.touched)" class="alert">
+            <div [hidden]="!userCodeinput.errors" >الرجاء إدخال رمز المستخدم</div>
+        </div>
+      
+        <label> كلمة المرور </label>
+
+
+        <input required type="password" [(ngModel)]="loginData.password" #passwordinput="ngModel" name="password"  class="userCode" >
+        <div *ngIf="passwordinput.errors && (passwordinput.dirty || passwordinput.touched)" class="alert">
+            <div [hidden]="!passwordinput.errors" class="alert" >الرجاء إدخال الرقم السري</div>
+        </div>
+
+   
+        <label> رمز الفرع </label>
+        <input required  type="text" [(ngModel)]="loginData.branchCode" #branchCodeinput="ngModel" name="branchCode"  class="" placeholder=" رمز الفرع ">
+     
+        <div *ngIf="branchCodeinput.errors && (branchCodeinput.dirty || branchCodeinput.touched)" class="alert">
+            <div [hidden]="!branchCodeinput.errors" class="alert" >الرجاء إدخال الرقم السري</div>
+        </div>
+
+
+        <button type="submit" [disabled]="!LoginForm.form.valid"> دخول </button>
+        <button class="" name="" id=""> الغاء </button>
+    </form>
+</div>

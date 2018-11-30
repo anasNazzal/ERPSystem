@@ -1,0 +1,30 @@
+<div class="SystemBg">
+
+  <div class="loginDiv animated bounceInLeft">
+
+    <div *ngIf="wrongCredentials" class="alert alert-danger" role="alert">
+      من فضلك ادخل كلمة سر صحيحة
+    </div>
+
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+
+      <label> رمز المستخدم </label>
+      <input formControlName="userCode" placeholder=" رمز المستخدم ">
+      <div *ngIf="userCodeInvalid" class="alert"> لم تقم بأدخال كلمة السر .. رجاء ادخل كلمة السر </div>
+      <label> كلمة المرور </label>
+      <input type="password" formControlName="password" placeholder=" كلمة المرور ">
+      <div *ngIf="passwordInvalid" class="alert"> لم تقم بأدخال رمز المستخدم .. رجاء ادخل الرمز </div>
+
+      <label> رمز الفرع </label>
+      <input formControlName='branchCode' placeholder=" رمز الفرع ">
+      <div *ngIf="branchCodeInvalid" class="alert"> لم تقم بأدخال رمز الفرع .. رجاء ادخل الرمز </div>
+
+      <label> قاعدة البيانات </label>
+      <input formControlName='data' placeholder=" قاعدة البيانات ">
+      <div *ngIf="dataInvalid" class="alert"> لم تقم بأدخال قاعدة البيانات .. رجاء تحقق </div>
+
+      <button type="submit"> دخول </button>
+      <button type="reset" (click)="cancel()"> الغاء </button>
+    </form>
+  </div>
+</div>

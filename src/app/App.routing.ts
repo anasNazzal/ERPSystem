@@ -6,7 +6,8 @@ const app_routes:Routes=[
 
 {
     path:'',
-    component:loginComponent
+    component:HomeComponent,
+    pathMatch: 'full' 
 },
 
 {

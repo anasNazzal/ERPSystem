@@ -1,4 +1,4 @@
-<div class="loginDiv animated bounceInLeft">
+<div class="loginDiv animated bounceInLeft ">
     <form #LoginForm="ngForm" (ngSubmit)="SubmitLoginForm(LoginForm.value)">
         <label> رمز المستخدم </label>
         <input  [(ngModel)]="loginData.userCode" required type="text"  name="userCode" #userCodeinput="ngModel"  class="userCode" >

@@ -202,8 +202,16 @@ body {overflow-x:hidden}
 
 .contain {
     padding-top: 96px;
-    direction: rtl;
     padding-bottom: 84px;
+}
+
+
+
+.contain-grid{
+    padding-top: 96px;
+    padding-bottom: 84px;
+    direction: rtl;
+    display: none;
 }
 
 
@@ -294,6 +302,7 @@ body {overflow-x:hidden}
     z-index: 5;
     padding: 1px 105px 1px 140px;
     height: 39px;
+    direction: rtl;
 }
 
 
@@ -314,6 +323,7 @@ body {overflow-x:hidden}
     text-align: center;
     padding: 11px 1px;
     user-select: none;
+    float: right;
 }
 
 
@@ -351,7 +361,7 @@ body {overflow-x:hidden}
     padding: 5px 5px;
     position: fixed;
     top: 75px;
-    left: 55px;
+    right: 166px;
     border-bottom: solid 2px #04384c;
     box-shadow: 1px 5px 16px 6px #545151a8;
     direction: rtl;
@@ -366,7 +376,7 @@ body {overflow-x:hidden}
     padding: 5px 5px;
     position: fixed;
     top: 75px;
-    left: 15%;
+    right: 20%;
     border-bottom: solid 2px #04384c;
     box-shadow: 1px 5px 16px 6px #545151a8;
     direction: rtl;
@@ -383,7 +393,7 @@ body {overflow-x:hidden}
     padding: 5px 5px;
     position: fixed;
     top: 75px;
-    left: 25%;
+    left: 52%;
     border-bottom: solid 2px #04384c;
     box-shadow: 1px 5px 16px 6px #545151a8;
     direction: rtl;
@@ -399,7 +409,7 @@ body {overflow-x:hidden}
     padding: 5px 5px;
     position: fixed;
     top: 75px;
-    left: 33%;
+    left: 44%;
     border-bottom: solid 2px #04384c;
     box-shadow: 1px 5px 16px 6px #545151a8;
     direction: rtl;
@@ -414,7 +424,7 @@ body {overflow-x:hidden}
     padding: 5px 5px;
     position: fixed;
     top: 75px;
-    left: 42%;
+    left: 35%;
     border-bottom: solid 2px #04384c;
     box-shadow: 1px 5px 16px 6px #545151a8;
     direction: rtl;
@@ -430,7 +440,7 @@ body {overflow-x:hidden}
     padding: 5px 5px;
     position: fixed;
     top: 75px;
-    left: 51%;
+    left: 26%;
     border-bottom: solid 2px #04384c;
     box-shadow: 1px 5px 16px 6px #545151a8;
     direction: rtl;
@@ -446,7 +456,7 @@ body {overflow-x:hidden}
     padding: 5px 5px;
     position: fixed;
     top: 75px;
-    left: 60%;
+    right: 63%;
     border-bottom: solid 2px #04384c;
     box-shadow: 1px 5px 16px 6px #545151a8;
     direction: rtl;
@@ -462,7 +472,7 @@ body {overflow-x:hidden}
     padding: 5px 5px;
     position: fixed;
     top: 75px;
-    left: 69%;
+    right: 73%;
     border-bottom: solid 2px #04384c;
     box-shadow: 1px 5px 16px 6px #545151a8;
     direction: rtl;
@@ -707,7 +717,7 @@ body {overflow-x:hidden}
     border-radius: 10px;
     border: solid 1px #92c2ea;
     box-shadow: 1px 1px 20px 0px #4c4c4c2b;
-    margin: 0px 0px 10px;
+    margin: 0px 0px 31px;
     background: #eaeaffa6;
 }
 
@@ -735,9 +745,9 @@ body {overflow-x:hidden}
     /* border: solid 1px #b10808; */
     /* background: #ff9494; */
     color: #dc0000;
-    /* display: none; */
-    padding: 0 !important;
-    margin: 0;
+    display: none;
+    padding: 0;
+    margin: -0;
     text-align: right;
     font-size: 13px;
 }

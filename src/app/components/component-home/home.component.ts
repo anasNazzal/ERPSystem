@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ModulePages } from 'src/app/models/module-pages.model';
 
+import { HomeService } from "../../services/home.service";
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -12,10 +14,12 @@ export class HomeComponent implements OnInit {
 	 *                                       INITIALIZATION                                       *
 	 **********************************************************************************************/
   
-  constructor() { }
+  constructor(private service: HomeService) { }
 
   ngOnInit() {
-    this.userModules = JSON.parse(localStorage.getItem("userData"));  
+    this.service.getAllModule().subscribe(data => {
+      this.userModules = data;
+    });
   }
 
 }

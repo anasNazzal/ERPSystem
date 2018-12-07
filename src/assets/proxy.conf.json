@@ -1,0 +1,7 @@
+{
+    "/api": {
+        "target": "http://www.erplsvision.com",
+        "secure": false,
+        "changeOrigin": true
+    }
+}

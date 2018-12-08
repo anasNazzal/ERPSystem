@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
+
   loginForm: FormGroup;
   submited: boolean = false
   wrongCredentials : boolean = false
@@ -48,7 +49,6 @@ export class LoginComponent implements OnInit {
 
   cancel() {
     this.submited = false;
-    this.wrongCredentials = false;
   }
 
   /* ********************************************************************************************

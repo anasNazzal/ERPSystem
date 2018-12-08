@@ -1,0 +1,68 @@
+[
+    {
+        "Pages": [],
+        "ModuleID": 1,
+        "ModuleName_AR": "الأستاذ العام",
+        "ModuleName_EN": "General Ledger(GL)"
+    },
+    {
+        "Pages": [],
+        "ModuleID": 2,
+        "ModuleName_AR": "إدارة المخزون والمستودعات",
+        "ModuleName_EN": "Stock and where house "
+    },
+    {
+        "Pages": [],
+        "ModuleID": 3,
+        "ModuleName_AR": "المشتريات",
+        "ModuleName_EN": "Purchase System"
+    },
+    {
+        "Pages": [],
+        "ModuleID": 4,
+        "ModuleName_AR": "المبيعات",
+        "ModuleName_EN": "Sales System"
+    },
+    {
+        "Pages": [],
+        "ModuleID": 5,
+        "ModuleName_AR": "نقاط بيع باركود",
+        "ModuleName_EN": "POS Retail"
+    },
+    {
+        "Pages": [],
+        "ModuleID": 6,
+        "ModuleName_AR": "الشيكات",
+        "ModuleName_EN": "Cheque System"
+    },
+    {
+        "Pages": [],
+        "ModuleID": 7,
+        "ModuleName_AR": "الأصول الثابتة",
+        "ModuleName_EN": "Fixed Assets System"
+    },
+    {
+        "Pages": [],
+        "ModuleID": 8,
+        "ModuleName_AR": "شؤون الموظفيين",
+        "ModuleName_EN": "HR and Payroll System"
+    },
+    {
+        "Pages": [],
+        "ModuleID": 9,
+        "ModuleName_AR": "التكاليف والإنتاج",
+        "ModuleName_EN": "Porduction and Costing System"
+    },
+    {
+        "Pages": [],
+        "ModuleID": 10,
+        "ModuleName_AR": "مبيعات خارجية",
+        "ModuleName_EN": "Van Sales System"
+    },
+    {
+        "Pages": [],
+        "ModuleID": 11,
+        "ModuleName_AR": "إدارة النظام",
+        "ModuleName_EN": "System managment"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "Pages": [],
+        "ModuleID": 1,
+        "ModuleName_AR": "الأستاذ العام",
+        "ModuleName_EN": "General Ledger(GL)"
+    },
+    {
+        "Pages": [],
+        "ModuleID": 3,
+        "ModuleName_AR": "المشتريات",
+        "ModuleName_EN": "Purchase System"
+    },
+    {
+        "Pages": [],
+        "ModuleID": 4,
+        "ModuleName_AR": "المبيعات",
+        "ModuleName_EN": "Sales System"
+    }
+]

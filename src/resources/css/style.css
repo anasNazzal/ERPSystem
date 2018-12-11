@@ -311,6 +311,7 @@ body {overflow-x:hidden}
 .divaricate ul {
     float: right;
     width: 100%;
+    margin-right: 7%;
 }
 
 

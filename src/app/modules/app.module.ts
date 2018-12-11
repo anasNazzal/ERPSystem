@@ -8,6 +8,7 @@ import { HomeComponent } from '../components/component-home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NotAvaliableComponent } from '../components/component-not-available/not-avaliable.component';
 import { ShortcutComponent } from '../components/component-shortcut/shortcut.component';
+import { PageBarComponent } from '../components/component-page-bar/page-bar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ShortcutComponent } from '../components/component-shortcut/shortcut.com
     LoginComponent,
     HomeComponent,
     NotAvaliableComponent,
-    ShortcutComponent
+    ShortcutComponent,
+    PageBarComponent
   ],
   imports: [
     BrowserModule,

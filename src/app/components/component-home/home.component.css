@@ -1,6 +1,6 @@
 .comp-container {
     height: 92vh;
-    margin-top: 43px;
+    /* margin-top: 43px; */
     margin-right: 13%;
 }
 
@@ -52,4 +52,8 @@
     100% {
         transform: rotate(360deg);
     }
+}
+
+.show-menu {
+    display: block !important;
 }

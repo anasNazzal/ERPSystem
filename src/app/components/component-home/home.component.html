@@ -1,4 +1,9 @@
-<div *ngIf="false" class="lds-ring main-loader"><div></div><div></div><div></div><div></div></div>
+<div *ngIf="false" class="lds-ring main-loader">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
 
 <div class="header">
   <div class="container-fluid">
@@ -12,110 +17,34 @@
         <h1> أسم المستخدم </h1>
       </div>
 
-
       <div class="year col-sm-4">
         <h1> الفتره : 2018 </h1>
       </div>
 
 
       <div class="tabHeader col-sm-4">
-
         <h1> الرؤيا الفنية </h1>
-
       </div>
 
     </div>
   </div>
 </div>
-
-
-
-<div class="toolbar">
-  <i class="fas fa-print hvr-grow"></i>
-  <i class="fas fa-save hvr-grow"></i>
-  <i class="fas fa-door-open hvr-grow"></i>
-  <i class="fas fa-cut hvr-grow"></i>
-  <i class="fas fa-envelope-open hvr-grow"></i>
-</div>
-
-
-
 
 <div class="menu  animated bounceInRight">
-
-  <div *ngIf="!userModules" class="lds-ring"><div></div><div></div><div></div><div></div></div>
-
+  <div *ngIf="!userModules" class="lds-ring">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
   <ul>
-    <li *ngFor="let module of userModules"> {{module.ModuleName_AR}} </li>
+    <li *ngFor="let module of userModules" (click)=selectModule(module) [routerLink]="['/modules', module.ModuleURL.replace('/','')]">
+      {{module.ModuleName_AR}} </li>
   </ul>
-
 </div>
 
+<div app-page-bar [activeModule]="activeModule"></div>
 
-<div class="comp-container"><router-outlet></router-outlet></div>
-
-
-<!-- 
-<div class="container-fluid secondHeader">
-  <div class="row">
-    <div class="col-md-11 divaricate">
-      <ul>
-        <li class="li1">الملفات</li>
-        <li class="li2"> الحركات </li>
-        <li class="li3"> التقارير </li>
-        <li class="li4"> النظام </li>
-
-      </ul>
-    </div>
-  </div>
+<div class="comp-container">
+  <router-outlet></router-outlet>
 </div>
-
-
-<div class="container-fluid slideDownTab">
-  <div class="row">
-    <div class="col-md-10">
-      <div class="tabnmbr1 tab">
-        <ul>
-          <li class="option1"> الأفرع </li>
-          <li class="option1"> الصفحه 1 </li>
-          <li class="option1"> الصفحه 2 </li>
-        </ul>
-      </div>
-
-
-      <div class="tabnmbr2 tab">
-        <ul>
-          <li class="option1"> الصفحه 1 </li>
-          <li class="option1"> الصفحه 2 </li>
-        </ul>
-      </div>
-
-
-
-
-      <div class="tabnmbr3 tab">
-        <ul>
-          <li class="option1"> الصفحه 1 </li>
-          <li class="option1"> الصفحه 2 </li>
-        </ul>
-      </div>
-
-
-
-
-      <div class="tabnmbr4 tab">
-        <ul>
-          <li class="option1"> الصفحه 1 </li>
-          <li class="option1"> الصفحه 2 </li>
-        </ul>
-      </div>
-
-
-
-
-
-    </div>
-  </div>
-</div>
-
- -->

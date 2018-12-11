@@ -1,58 +1,58 @@
-$(".li1").click(function () {
-  $(".tab").hide();
-  $(".tabnmbr1").toggle();
-});
+// $(".li1").click(function () {
+//   $(".tab").hide();
+//   $(".tabnmbr1").toggle();
+// });
 
 
 
 
-$(".li2").click(function () {
-  $(".tab").hide();
-  $(".tabnmbr2").toggle();
-});
+// $(".li2").click(function () {
+//   $(".tab").hide();
+//   $(".tabnmbr2").toggle();
+// });
 
 
 
 
-$(".li3").click(function () {
-  $(".tab").hide();
-  $(".tabnmbr3").toggle();
-});
+// $(".li3").click(function () {
+//   $(".tab").hide();
+//   $(".tabnmbr3").toggle();
+// });
 
 
 
-$(".li4").click(function () {
-  $(".tab").hide();
-  $(".tabnmbr4").toggle();
-});
+// $(".li4").click(function () {
+//   $(".tab").hide();
+//   $(".tabnmbr4").toggle();
+// });
 
 
 
-$(".li5").click(function () {
-  $(".tab").hide();
-  $(".tabnmbr5").toggle();
-});
+// $(".li5").click(function () {
+//   $(".tab").hide();
+//   $(".tabnmbr5").toggle();
+// });
 
 
 
-$(".li6").click(function () {
-  $(".tab").hide();
-  $(".tabnmbr6").toggle();
-});
+// $(".li6").click(function () {
+//   $(".tab").hide();
+//   $(".tabnmbr6").toggle();
+// });
 
 
 
-$(".li7").click(function () {
-  $(".tab").hide();
-  $(".tabnmbr7").toggle();
-});
+// $(".li7").click(function () {
+//   $(".tab").hide();
+//   $(".tabnmbr7").toggle();
+// });
 
 
 
-$(".li8").click(function () {
-  $(".tab").hide();
-  $(".tabnmbr8").toggle();
-});
+// $(".li8").click(function () {
+//   $(".tab").hide();
+//   $(".tabnmbr8").toggle();
+// });
 
 
 

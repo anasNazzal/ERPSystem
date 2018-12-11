@@ -201,8 +201,8 @@ body {overflow-x:hidden}
 
 
 .contain {
-    padding-top: 96px;
-    padding-bottom: 84px;
+    padding-top: 60px;
+    /* padding-bottom: 84px; */
 }
 
 
@@ -311,6 +311,7 @@ body {overflow-x:hidden}
 .divaricate ul {
     float: right;
     width: 100%;
+    margin-right: 7%;
 }
 
 

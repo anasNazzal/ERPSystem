@@ -42,7 +42,7 @@ export class LoginComponent implements OnInit {
       this.loginService.getTestStatus(this.loginForm.value).subscribe(data => {
         localStorage.setItem("userToken", "token_" + this.loginForm.get('userCode').value);
         localStorage.setItem("userData", JSON.stringify(data));
-        this.router.navigate(['/home']);
+        this.router.navigate(['/modules']);
       })
     }
   }

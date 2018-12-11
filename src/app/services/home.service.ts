@@ -18,6 +18,7 @@ export class HomeService {
     //return list of pages for this module view pages by pageType 
     getPageByModuleId(moduleId: number): Observable<any> {
         const url = `/api/Pages/GetAllPagesByModul/${moduleId}`;
+        console.log(url);
         return this.httpClient.get(url);
     }
 }
